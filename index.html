@@ -2,22 +2,23 @@
 <html lang="de">
     <head>
         <title>Aufgabe1.7</title>
-        <style>
-            div.mycontainer {
-                width:100%;
-                overflow:auto;
-            }
-            div.mycontainer div {
-                width:33%;
-                float:left;
-            }
-        </style>
     </head>
+    <style>
+        div.mycontainer {
+            width:100%;
+            overflow:auto;
+        }
+        div.mycontainer div {
+            width:30%;
+            min-width: fit-content;
+            min-height: 350px;
+            float:left;
+        }
+    </style>
     <body>
         <header><h1>Meine Beispielseite</h1></header>
         <nav>
-            <div class="mycontainer">
-            <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;">
+            <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px; max-width: fit-content">
                 <span style="border: 1px solid gray; padding: 1px 1px; border-radius: 1px;">
                     Logo</span>
                 <span style="border: 1px solid gray; padding: 1px 1px; border-radius: 1px;">
@@ -27,7 +28,7 @@
             </div>
         </nav>
         <hr>
-        <main style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;">
+        <main style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;max-width: fit-content">
             <div class="mycontainer">
         <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;">
             <h2>Men&uuml</h2>
@@ -37,9 +38,9 @@
                 <li><a href="">Eintrag 3</a></li>
             </ul>
             <h2>Portrait</h2>
-            <p><img src="/Portrait.jpg" alt="description" width="160" height="107" /></p>
+            <p><img src="/Portrait.jpg" alt="description" width="200" height="133" /></p>
         </div>
-        <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;">
+        <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;min-width: fit-content">
             <br>
             <br>
             <h2>Hauptinhalt</h2>
@@ -55,17 +56,17 @@
                 <tbody>
                 <tr>
                     <td style="border: 1px solid gray">Kapitel 1</td>
-                    <td style="border: 1px solid gray">Kurzindfo zu Kapitel 1</td><td style="border: 1px solid gray">
+                    <td style="border: 1px solid gray">Kurzinfo zu Kapitel 1</td><td style="border: 1px solid gray">
                     <a href="">Details</a></td>
                 </tr>
                 <tr>
                     <td style="border: 1px solid gray">Kapitel 2</td>
-                    <td style="border: 1px solid gray">Kurzindfo zu Kapitel 2</td><td style="border: 1px solid gray">
+                    <td style="border: 1px solid gray">Kurzinfo zu Kapitel 2</td><td style="border: 1px solid gray">
                     <a href="">Details</a></td>
                 </tr>
                 <tr>
                     <td style="border: 1px solid gray">Kapitel 3</td>
-                    <td style="border: 1px solid gray">Kurzindfo zu Kapitel 3</td><td style="border: 1px solid gray">
+                    <td style="border: 1px solid gray">Kurzinfo zu Kapitel 3</td><td style="border: 1px solid gray">
                     <a href="">Details</a></td>
                 </tr>
                 </tbody>
