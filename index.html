@@ -1,84 +1,98 @@
 <!DOCTYPE html>
-<html lang="de">
-    <head>
-        <title>Aufgabe1.7</title>
-    </head>
-    <style>
-        div.mycontainer {
-            width:100%;
-            overflow:auto;
-        }
-        div.mycontainer div {
-            width:30%;
-            min-width: fit-content;
-            min-height: 325px;
-            max-height: 325px;
-            float:left;
-        }
-    </style>
-    <body>
-        <header><h1>Meine Beispielseite</h1></header>
-        <nav>
-            <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px; max-width: fit-content">
-                <span style="border: 1px solid gray; padding: 1px 1px; border-radius: 1px;">
-                    Logo</span>
-                <span style="border: 1px solid gray; padding: 1px 1px; border-radius: 1px;">
-                    <a href="">Start</a> | <a href="">Themen</a> | <a href="">&Uumlber uns</a> |
-                    <a href="">Kontakt</a></span>
-            </div>
-            </div>
-        </nav>
-        <hr>
-        <main style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;max-width: fit-content">
-            <div class="mycontainer">
-        <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;">
-            <h2>Men&uuml</h2>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Meine Beispielseite </title>
+</head>
+<body>
+<h1> Meine Beispielseite</h1>
+<table border="1">
+    <tr>
+        <td>
+            <a href="#"> Logo </a>
+        </td>
+        <td>
+            <a href="#"> Start </a> |
+            <a href="#"> Themen </a> |
+            <a href="#"> Über uns </a> |
+            <a href="#"> Kontakt </a>
+        </td>
+    </tr>
+</table>
+<hr>
+<table border="1">
+    <tr>
+        <td>
+            <h2> Menü </h2>
             <ul>
-                <li><a href="">Eintrag 1</a></li>
-                <li><a href="">Eintrag 2</a></li>
-                <li><a href="">Eintrag 3</a></li>
+                <li>
+                    <a href="#"> Eintrag 1</a>
+                </li>
+                <li>
+                    <a href="#"> Eintrag 2</a>
+                </li>
+                <li>
+                    <a href="#"> Eintrag 3</a>
+                </li>
             </ul>
-            <h2>Portrait</h2>
-            <p><img src="/Portrait.jpg" alt="description" width="200" height="133" /></p>
-        </div>
-        <div style="border: 1px solid gray; padding: 3px 1px; border-radius: 1px;min-width: fit-content">
-            <br>
-            <br>
-            <h2>Hauptinhalt</h2>
-            <p>Dies ist der zentraler Inhaltsbereich.</p>
-            <table style="border: 1px solid gray">
-                <caption>&Uumlbersicht</caption>
-                <thead>
+            <h2> Portrait </h2>
+            <img src="Portrait.jpg" alt="Portrait" width="200" height="133">
+        </td>
+        <td>
+            <h2> Hauptinhalt</h2>
+            <p> Dies ist der zentrale Inhaltsbereich. </p>
+            <table border="1">
+                <caption> Übersicht </caption>
                 <tr>
-                    <th style="border: 1px solid gray"><b>Titel</b></th><th style="border: 1px solid gray">
-                    <b>Beschreibung</b></th><th style="border: 1px solid gray"><b>Link</b></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td style="border: 1px solid gray">Kapitel 1</td>
-                    <td style="border: 1px solid gray">Kurzinfo zu Kapitel 1</td><td style="border: 1px solid gray">
-                    <a href="">Details</a></td>
+                    <th>
+                        Titel
+                    </th>
+                    <th>
+                        Beschreibung
+                    </th>
+                    <th>
+                        Link
+                    </th>
                 </tr>
                 <tr>
-                    <td style="border: 1px solid gray">Kapitel 2</td>
-                    <td style="border: 1px solid gray">Kurzinfo zu Kapitel 2</td><td style="border: 1px solid gray">
-                    <a href="">Details</a></td>
+                    <td>
+                        Kapitel 1
+                    </td>
+                    <td>
+                        Kurzinfo zu Kapitel 1
+                    </td>
+                    <td>
+                        <a href="#"> Details </a>
+                    </td>
                 </tr>
                 <tr>
-                    <td style="border: 1px solid gray">Kapitel 3</td>
-                    <td style="border: 1px solid gray">Kurzinfo zu Kapitel 3</td><td style="border: 1px solid gray">
-                    <a href="">Details</a></td>
+                    <td>
+                        Kapitel 2
+                    </td>
+                    <td>
+                        Kurzinfo zu Kapitel 2
+                    </td>
+                    <td>
+                        <a href="#"> Details </a>
+                    </td>
                 </tr>
-                </tbody>
+                <tr>
+                    <td>
+                        Kapitel 3
+                    </td>
+                    <td>
+                        Kurzinfo zu Kapitel 3
+                    </td>
+                    <td>
+                        <a href="#"> Details </a>
+                    </td>
+                </tr>
             </table>
-        </div>
-            </div>
-        </main>
-        <hr>
-        <footer>
-            <p>&#169 2025 Beispielseite</p>
-            <p><a href="">Impressum</a> | <a href="">Datenschutz</a></p>
-        </footer>
-    </body>
+        </td>
+    </tr>
+</table>
+<hr>
+<p> ©️ 2025 Beispielseite </p>
+<p> <a href="#"> Impressum</a> | <a href="#"> Datenschutz</a> </p>
+</body>
 </html>
